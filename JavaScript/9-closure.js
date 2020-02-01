@@ -1,7 +1,7 @@
 'use strict';
 
 const Rectangle = (() => {
-  const hidden = new Map();
+  const hidden = new WeakMap();
 
   return class {
     constructor(height, width) {
