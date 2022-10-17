@@ -1,8 +1,8 @@
 'use strict';
 
 class Rectangle {
-  #height
-  #width
+  #height;
+  #width;
 
   constructor(height, width) {
     this.#height = height;
